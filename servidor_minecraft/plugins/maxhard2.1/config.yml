@@ -1,0 +1,205 @@
+# MaxHard Configuration
+
+# System Settings
+system:
+  current_day: 1
+
+# Day 1 Settings
+# (Some features are hardcoded; values kept for reference/future tuning)
+day1:
+  creeper:
+    silent: true
+  spawns:
+    group_chance: 0.6
+    min_extra: 2
+    max_extra: 4
+  food:
+    regen_multiplier: 0.7
+    saturation_multiplier: 0.75
+  debuffs:
+    duration_multiplier: 1.5
+    amplify_level_one: true
+  rare_event:
+    chance: 1.0E-6 # 1 in 1,000,000
+
+# Day 2 Settings
+day2:
+  crafting_failure:
+    chance: 1.0E-5 # 1 in 100,000
+  sun_immunity:
+    enabled: true
+  enderman:
+    water_resistance: true
+  piglins:
+    always_aggressive: true
+    ignore_gold: true
+    prevent_zombification: true
+  creeper:
+    fuse_ticks: 20
+  spider:
+    health_multiplier: 1.4
+    cave_spiders_summoned: 4
+    summon_delay_ticks: 300
+  lightning:
+    instant_damage_level: 2
+  item_cooldown:
+    cooldown_ms: 3000
+    ender_pearl: true
+    golden_apple: true
+
+# Day 3 Settings
+day3:
+  demon_armor:
+    health_per_piece: 1.0
+  custom_mobs:
+    enabled: true
+    spawn_during_storm: true
+    spawn_chance: 0.02
+    bruto_health: 100.0
+    enderman_health: 100.0
+    enderman_damage: 40.0
+    demonio_health: 100.0
+    demonio_sharp_vi_bonus: 4.0
+    ghast_health: 100.0
+    ghast_projectile_damage: 60.0
+    mining_fatigue_duration: 600
+    drop_chance: 0.25
+    bruto_block_radius: 5
+    bruto_retreat_seconds: 5
+  notch_apple:
+    enabled: true
+    failure_chance: 0.01
+  phantom_rider:
+    enabled: true
+    chance: 0.3
+  evoker_totem:
+    enabled: true
+    totem_count: 2
+  home_potion:
+    enabled: true
+  darkness_spawn:
+    enabled: true
+
+# Day 4 Settings
+day4:
+  darkness:
+    enabled: true
+    min_light_level: 10
+    check_radius: 6
+    check_interval: 40
+  villagers:
+    enabled: true
+    price_multiplier: 1.3
+    cancel_trade_chance: 0.1
+    overtrade_threshold: 3
+    overtrade_window_seconds: 60
+    golem_aggro_radius: 12
+  golems:
+    enabled: true
+    speed_multiplier: 1.3
+    fire_resistance: true
+    damage_multiplier: 1.2
+  raids:
+    enabled: true
+    illusioner_replace_chance: 0.2
+    illusioner_health_multiplier: 1.4
+  crafting:
+    ultra_rare_failure_chance: 1.0E-5
+  dimension:
+    enabled: true
+    world_name: dominio_roto
+    portal_coords:
+      x: 0
+      y: 64
+      z: 0
+      generated: false
+    first_entry_player: ''
+
+# Day 5 Settings
+day5:
+  hunger:
+    enabled: true
+    healing_reduction: 0.4
+    nausea_chance: 0.1
+    nausea_duration: 5
+  sleep:
+    phantoms_enabled: true
+    phantoms_chance: 0.2
+    phantoms_count: 3
+    explosion_chance: 0.05
+    explosion_damage: 2.0
+  ores:
+    enabled: true
+    silverfish_chance: 0.08
+    explosion_chance: 0.03
+    mob_spawn_chance: 0.01
+  mobs:
+    zombies_break_iron_doors: true
+    skeleton_attack_speed_bonus: 0.15
+    creeper_detection_range_bonus: 0.2
+    spider_climb_speed_bonus: 0.2
+  global_events:
+    enabled: true
+    interval_minutes: 10
+    fog_duration: 30
+    darkness_duration: 20
+  protection:
+    enabled: true
+    reduction_percentage: 0.15
+  villagers:
+    trade_cancel_chance: 0.15
+    golem_speed_bonus: 0.1
+    golems_on_hit: 2
+    golem_spawn_cooldown: 60
+  la_sombra:
+    enabled: true
+    min_interval_minutes: 30
+    max_interval_minutes: 60
+    duration_seconds: 60
+    detection_range_multiplier: 1.5
+
+# Day 6 Settings
+day6:
+  fortune:
+    enabled: true
+    corrupt_mob_chance: 0.05
+    lightning_chance: 0.01
+  boss:
+    enabled: true
+    ores_required: 64
+    health: 300.0
+    speed_multiplier: 1.4
+    damage_multiplier: 1.5
+    steal_chance: 0.15
+    steal_items_min: 1
+    steal_items_max: 2
+  missions:
+    enabled: true
+    sacrifice:
+      ancient_debris: 16
+      diamonds: 32
+      totems: 1
+    hunt:
+      wither_skeletons: 50
+      blazes: 25
+      illusioners: 10
+    domination:
+      bosses_required: 2
+  storm:
+    enabled: true
+    check_interval: 200
+  mobs:
+    speed_multiplier: 1.2
+    damage_multiplier: 1.15
+    buff_chance: 0.1
+  nether:
+    explosion_chance: 0.05
+    piglin_stare_seconds: 3
+    ghast_detection_multiplier: 1.5
+  void_mark:
+    health_reduction: 4.0
+  signals:
+    enabled: true
+    min_interval_minutes: 3
+    max_interval_minutes: 8
+  day7_unlocked: false

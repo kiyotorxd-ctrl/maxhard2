@@ -1,0 +1,541 @@
+[23:29:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1044-azure (amd64)
+[23:29:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) for Minecraft 1.21.10
+[23:29:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:29:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.15.jar'...
+[23:29:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.15.jar' in 1860ms.
+[23:29:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[23:29:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - InvSeePlusPlus (0.30.15), InvSeePlusPlus_Clear (0.30.15), InvSeePlusPlus_Give (0.30.15), PrivateChest (2.3), Shopkeepers (2.26.0), SkinsRestorer (15.10.0), WorldEdit (7.4.0+7381-3decaf0), WorldGuard (7.0.15+2347-5fafea6), maxhard2.1 (1.0-SNAPSHOT)
+[23:29:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[23:29:45] [ServerMain/INFO]: Loaded 1461 recipes
+[23:29:45] [ServerMain/INFO]: Loaded 1574 advancements
+[23:29:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:29:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 937.9ms
+[23:29:46] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[23:29:46] [Server thread/INFO]: Loading properties
+[23:29:46] [Server thread/INFO]: This server is running Paper version 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[23:29:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:29:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:29:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:29:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[23:29:48] [Server thread/INFO]: Default game type: SURVIVAL
+[23:29:48] [Server thread/INFO]: Generating keypair
+[23:29:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:29:49] [Server thread/INFO]: Using epoll channel type
+[23:29:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:29:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[23:29:50] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[23:29:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@252184d5]
+[23:29:51] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[23:29:51] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.30.15
+[23:29:51] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15+2347-5fafea6
+[23:29:51] [Server thread/INFO]: [InvSee++_Clear] Loading server plugin InvSeePlusPlus_Clear v0.30.15
+[23:29:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[23:29:51] [Server thread/INFO]: [PrivateChest] Loading server plugin PrivateChest v2.3
+[23:29:51] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.26.0
+[23:29:51] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R8_paper
+[23:29:51] [Server thread/INFO]: [Shopkeepers] Loading config.
+[23:29:51] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL_HUSK
+[23:29:51] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': NAUTILUS
+[23:29:51] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': PARCHED
+[23:29:51] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ZOMBIE_NAUTILUS
+[23:29:51] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[23:29:51] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[23:29:52] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CAMEL_HUSK
+[23:29:52] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': NAUTILUS
+[23:29:52] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': PARCHED
+[23:29:52] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ZOMBIE_NAUTILUS
+[23:29:52] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[23:29:52] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[23:29:52] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[23:29:52] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (705 ms).
+[23:29:52] [Server thread/INFO]: [maxhard2.1] Loading server plugin maxhard2.1 v1.0-SNAPSHOT
+[23:29:52] [Server thread/INFO]: [InvSee++_Give] Loading server plugin InvSeePlusPlus_Give v0.30.15
+[23:29:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:29:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[23:29:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:29:53] [Server thread/INFO]: WEPIF: Updated config file
+[23:29:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:29:54] [Server thread/WARN]: This version of WorldEdit has not been tested with the current Minecraft version.
+While it may work, there might be unexpected issues.
+It is recommended to use a version of WorldEdit that supports your Minecraft version.
+For more information, see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+
+[23:29:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[23:29:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[23:29:56] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.10.
+[23:29:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:29:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:29:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:29:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:29:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:29:57] [Server thread/INFO]: Preparing level "world"
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[23:29:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[23:29:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[23:29:58] [Server thread/INFO]: Preparing spawn area: 100%
+[23:29:58] [Server thread/INFO]: Prepared spawn area in 13 ms
+[23:29:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[23:29:58] [Server thread/INFO]: Preparing spawn area: 100%
+[23:29:58] [Server thread/INFO]: Prepared spawn area in 4 ms
+[23:29:58] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[23:29:58] [Server thread/INFO]: Prepared spawn area in 6 ms
+[23:29:58] [Server thread/INFO]: Done preparing level "world" (1.848s)
+[23:29:58] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.30.15
+[23:29:59] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.10
+[23:29:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15+2347-5fafea6
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[23:30:00] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:30:00] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[23:30:00] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:30:00] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[23:30:01] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.30.15
+[23:30:01] [Server thread/INFO]: [PrivateChest] Enabling PrivateChest v2.3
+[23:30:01] [Server thread/INFO]: [PrivateChest] Running on: Paper (MC 1.21.10)
+[23:30:01] [Server thread/INFO]: [PrivateChest] [BedrockUtils] No Bedrock bridge detected - Java Edition only mode
+[23:30:01] [Server thread/INFO]: [PrivateChest] [BedrockUtils] Install Geyser+Floodgate for Bedrock support
+[23:30:01] [Server thread/INFO]: [PrivateChest] [PrivateChest] Using YAML storage.
+[23:30:01] [Server thread/INFO]: [PrivateChest] [PrivateChest] Storage system initialized: YAML
+[23:30:01] [Server thread/INFO]: [PrivateChest] [PrivateChest] Loaded 14 locked chests from YAML storage.
+[23:30:01] [Server thread/INFO]: [PrivateChest] [ContainerNames] Loaded 0 custom container names
+[23:30:01] [Server thread/INFO]: [PrivateChest] [AutoCleanup] Periodic cleanup scheduled every 30 minutes
+[23:30:01] [Server thread/INFO]: [PrivateChest] Checking for plain text passwords to migrate...
+[23:30:01] [Server thread/INFO]: [PrivateChest] PrivateChest v2.3 enabled successfully!
+[23:30:01] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.26.0
+[23:30:01] [Server thread/INFO]: [maxhard2.1] Enabling maxhard2.1 v1.0-SNAPSHOT
+[23:30:02] [Server thread/INFO]: [maxhard2.1] Day 1 features activated
+[23:30:02] [Server thread/INFO]: [maxhard2.1] MaxHard system resumed at Day 1
+[23:30:02] [Server thread/INFO]: [maxhard2.1] MaxHard 2.1 enabled successfully!
+[23:30:02] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.30.15
+[23:30:02] [Server thread/INFO]: [spark] Starting background profiler...
+[23:30:03] [Server thread/INFO]: Running delayed init tasks
+[23:30:03] [Server thread/INFO]: Done (35.652s)! For help, type "help"
+[23:30:10] [User Authenticator #0/INFO]: UUID of player Renzo212123 is 0a06e831-ad9a-3a47-a4a9-7bbed028d87b
+[23:30:10] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [WorldGuard]
+[23:30:13] [Server thread/INFO]: Renzo212123 joined the game
+[23:30:13] [Server thread/INFO]: Renzo212123[/127.126.82.151:32813] logged in with entity id 1 at ([world_the_end]19.255998504830615, 61.0, 57.59755137454308)
+[23:30:14] [Server thread/INFO]: [PrivateChest] [AutoCleanup] Starting startup cleanup of orphaned data...
+[23:30:21] [User Authenticator #0/INFO]: UUID of player identidad303XDnt is 3025fd1e-f09d-3450-a2ee-cfb31dd6040e
+[23:30:22] [Server thread/INFO]: identidad303XDnt joined the game
+[23:30:22] [Server thread/INFO]: identidad303XDnt[/127.96.249.68:35771] logged in with entity id 262 at ([world_the_end]99.88486716997458, 54.62117543085879, 19.466032380540614)
+[23:30:47] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:47] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:47] [User Authenticator #0/INFO]: UUID of player MauGP is 8794f8df-32b5-3f1f-88db-58309a8da55f
+[23:30:47] [Server thread/INFO]: MauGP joined the game
+[23:30:47] [Server thread/INFO]: MauGP[/127.182.41.150:45767] logged in with entity id 304 at ([world_the_end]96.65463626049016, 51.5, 12.724624615236559)
+[23:30:49] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:49] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:52] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:52] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:52] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:52] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:54] [Server thread/INFO]: identidad303XDnt has made the advancement [Remote Getaway]
+[23:30:56] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:56] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:56] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:56] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:56] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:56] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:56] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:56] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:58] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:58] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:58] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:58] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:30:59] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:30:59] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:31:00] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:31:00] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:31:01] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
+[23:31:01] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:31:17] [Server thread/INFO]: MauGP issued server command: //br paint sphere set
+[23:31:26] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone_bricks
+[23:31:28] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone_bricks 4
+[23:31:31] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone_bricks 4
+[23:31:46] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply sphere set end_stone
+[23:31:48] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:31:52] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:32:22] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:23] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:23] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:24] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:24] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:24] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:24] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:25] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:25] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:25] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:27] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:27] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:27] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:33] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:35] [Server thread/INFO]: MauGP issued server command: /op i
+[23:32:35] [Server thread/INFO]: [MauGP: Made i a server operator]
+[23:32:36] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:36] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:37] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:37] [Server thread/INFO]: MauGP issued server command: /op identidad303XDnt
+[23:32:37] [Server thread/INFO]: [MauGP: Made identidad303XDnt a server operator]
+[23:32:37] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:32:46] [Async Chat Thread - #1/INFO]: [Not Secure] <MauGP> .//br paint sphere set end_stone_bricks 4
+[23:32:47] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:33:03] [Server thread/INFO]: Renzo212123 issued server command: /br paint sphere set end_stone_bricks 4
+[23:33:21] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:33:28] [Server thread/INFO]: MauGP has made the advancement [Who is Cutting Onions?]
+[23:33:31] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks 4
+[23:33:39] [Server thread/INFO]: MauGP issued server command: //br paint sphere set crying_obsidian 3
+[23:33:40] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl set end_stone
+[23:33:41] [Server thread/INFO]: MauGP issued server command: //br paint sphere set crying_obsidian
+[23:33:47] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks 4
+[23:33:55] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks 4
+[23:33:56] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks 4
+[23:33:56] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks 4
+[23:34:01] [Server thread/INFO]: identidad303XDnt issued server command: //br paint sphere set end_stone_bricks
+[23:34:17] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:18] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:19] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:21] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:21] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:22] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:23] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:24] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:34:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Renzo212123> worldedit:/brush apply cyl set end_stone
+[23:35:00] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:35:20] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl set ait
+[23:35:22] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl set air
+[23:35:28] [Server thread/INFO]: Renzo212123 issued server command: /undo all
+[23:35:31] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:31] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:31] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:33] [Server thread/INFO]: MauGP issued server command: //set 0
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:35:51] [Server thread/INFO]: [MauGP: Set own game mode to Spectator Mode]
+[23:36:01] [Server thread/INFO]: Renzo212123 issued server command: /fill 98 50 -2
+[23:36:20] [Server thread/INFO]: Renzo212123 issued server command: /fill 98 50 -2 150 50 55 air
+[23:36:20] [Server thread/INFO]: [Renzo212123: Successfully filled 1832 block(s)]
+[23:36:28] [Server thread/INFO]: [MauGP: Set own game mode to Creative Mode]
+[23:36:50] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cuboid set end_stone
+[23:36:52] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cuboid set end_stone
+[23:36:57] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:36:57] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:02] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:02] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:02] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:03] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:04] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:05] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:37:06] [Server thread/INFO]: MauGP issued server command: //br apply sphere set air
+[23:37:20] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl set end_stone
+[23:37:25] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl set end_stone 4
+[23:37:34] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply cyl 10 set end_stone 4
+[23:37:40] [Async Chat Thread - #4/INFO]: [Not Secure] <identidad303XDnt> worldedit:/brush apply cyl set end_stone
+[23:37:48] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply cyl set end_stone
+[23:37:55] [Server thread/INFO]: Renzo212123 issued server command: /undp
+[23:37:57] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:38:02] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:38:16] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply cyl set end_stone
+[23:38:20] [Server thread/INFO]: Renzo212123 issued server command: /kick MauGP
+[23:38:20] [Server thread/INFO]: MauGP lost connection: Kicked by an operator
+[23:38:20] [Server thread/INFO]: MauGP left the game
+[23:38:20] [Server thread/INFO]: [Renzo212123: Kicked MauGP: Kicked by an operator]
+[23:38:24] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:38:25] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:38:26] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:38:28] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:38:49] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:38:50] [User Authenticator #1/INFO]: UUID of player MauGP is 8794f8df-32b5-3f1f-88db-58309a8da55f
+[23:38:51] [Server thread/INFO]: MauGP joined the game
+[23:38:51] [Server thread/INFO]: MauGP[/127.182.41.150:47723] logged in with entity id 1489 at ([world_the_end]-104.88337429417797, 69.77339399883743, -7.469534789858441)
+[23:38:52] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:38:57] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:39:02] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:39:04] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:39:05] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:39:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:39:31] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:39:36] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:39:37] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply spherel set end_stone
+[23:39:41] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone_bricks
+[23:40:05] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply sphere set set end_stone
+[23:40:24] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply sphere set set end_stone
+[23:40:36] [Server thread/INFO]: identidad303XDnt issued server command: /worldedit:/brush apply sphere set end_stone
+[23:40:43] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/fill
+[23:40:54] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:40:55] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:40:57] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:40:59] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:00] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:01] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:01] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:01] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/fill end_stone 100 2
+[23:41:02] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:02] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:41:15] [Server thread/INFO]: MauGP issued server command: //br apply sphere set air
+[23:41:19] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:41:24] [Server thread/WARN]: identidad303XDnt moved too quickly! 0.09174663300396446,-25.785119503166115,-0.17502600736869667
+[23:41:41] [Server thread/INFO]: [MauGP: Set own game mode to Spectator Mode]
+[23:41:46] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:41:50] [Server thread/INFO]: identidad303XDnt issued server command: //set o
+[23:41:55] [Server thread/INFO]: identidad303XDnt issued server command: //set 0
+[23:41:55] [Server thread/INFO]: Renzo212123 issued server command: /tp MauGP
+[23:41:55] [Server thread/INFO]: [Renzo212123: Teleported Renzo212123 to MauGP]
+[23:42:00] [Server thread/INFO]: Renzo212123 issued server command: /tp identidad303XDnt
+[23:42:00] [Server thread/INFO]: [Renzo212123: Teleported Renzo212123 to identidad303XDnt]
+[23:42:09] [Server thread/INFO]: MauGP issued server command: /tp identidad303XDnt MauGP
+[23:42:09] [Server thread/INFO]: [MauGP: Teleported identidad303XDnt to MauGP]
+[23:42:13] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:42:24] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/fill end_stone 10 5
+[23:42:34] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:42:40] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/fill end_stone 30 40
+[23:42:49] [Server thread/INFO]: [MauGP: Set own game mode to Creative Mode]
+[23:42:53] [Server thread/INFO]: MauGP issued server command: //br apply sphere set air
+[23:42:59] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:43:05] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:43:08] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:43:14] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone_bricks
+[23:43:17] [Server thread/INFO]: identidad303XDnt issued server command: /undo
+[23:43:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:43:35] [Server thread/INFO]: MauGP issued server command: //br paint sphere set end_stone
+[23:43:54] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply sphere 10 set end_stone 4
+[23:44:01] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply sphere set end_stone 4
+[23:44:10] [Server thread/INFO]: Renzo212123 issued server command: /worldedit:/brush apply sphere set end_stone
+[23:44:29] [Server thread/INFO]: identidad303XDnt issued server command: /tp MauGP
+[23:44:29] [Server thread/INFO]: [identidad303XDnt: Teleported identidad303XDnt to MauGP]
+[23:44:37] [Server thread/INFO]: Renzo212123 issued server command: /tp identidad303XDnt
+[23:44:37] [Server thread/INFO]: [Renzo212123: Teleported Renzo212123 to identidad303XDnt]
+[23:44:46] [Server thread/INFO]: identidad303XDnt issued server command: /tp MauGP
+[23:44:46] [Server thread/INFO]: [identidad303XDnt: Teleported identidad303XDnt to MauGP]
+[23:44:49] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:45:04] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:45:15] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:50}
+[23:45:15] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:25] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:25] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:28] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:28] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:28] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:28] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:29] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:29] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:29] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:29] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:30] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:30] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:31] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:31] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:36] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:36] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:38] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:38] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:40] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:40] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:42] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:42] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:45] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:45] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:47] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:47] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:48] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:48] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:49] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:49] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:50] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:50] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:51] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:51] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:54] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:54] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:54] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:54] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:54] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:54] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:45:59] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:45:59] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:46:00] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:46:00] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:46:02] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:46:02] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:46:05] [Server thread/INFO]: MauGP issued server command: //br smooth
+[23:46:06] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:46:06] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:46:16] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:17] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:18] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:23] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:46:27] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:29] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:29] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:29] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:29] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:29] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:29] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:30] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:31] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:32] [Server thread/INFO]: MauGP issued server command: /undo
+[23:46:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:37] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:38] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:38] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:38] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:39] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:42] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:46:49] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:49] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:50] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:50] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:50] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:51] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:57] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:46:57] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:06] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:47:08] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:47:13] [Server thread/INFO]: MauGP issued server command: /undo
+[23:47:16] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:47:19] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:47:24] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:34] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:35] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:36] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:47:47] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:47:47] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:47:48] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:47:48] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:47:51] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:47:51] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:47:54] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:47:54] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:47:57] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:47:57] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:08] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:48:09] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:48:13] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:13] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:14] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:14] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:15] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:15] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:21] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:21] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:22] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:22] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:22] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:22] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:30] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:30] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:46] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:46] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:53] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:53] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:54] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:54] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:57] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:57] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:58] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:58] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:48:59] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:48:59] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:49:01] [Server thread/INFO]: Renzo212123 issued server command: /summon minecraft:fireball ~ ~ ~ {ExplosionPower:30}
+[23:49:01] [Server thread/INFO]: [Renzo212123: Summoned new Fireball]
+[23:49:08] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:49:22] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:49:24] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:49:26] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:49:29] [Server thread/INFO]: MauGP lost connection: Disconnected
+[23:49:29] [Server thread/INFO]: MauGP left the game
+[23:49:32] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:49:33] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:49:34] [User Authenticator #2/INFO]: UUID of player MauGP is 8794f8df-32b5-3f1f-88db-58309a8da55f
+[23:49:35] [Server thread/INFO]: MauGP joined the game
+[23:49:35] [Server thread/INFO]: MauGP[/127.182.41.150:57609] logged in with entity id 2947 at ([world_the_end]-13.400204790634, 72.5319546388336, 104.47811338473683)
+[23:49:36] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:49:39] [Server thread/INFO]: [Renzo212123: Set own game mode to Survival Mode]
+[23:49:40] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:49:49] [Server thread/INFO]: [Renzo212123: Set own game mode to Spectator Mode]
+[23:50:05] [Server thread/INFO]: [Renzo212123: Set own game mode to Creative Mode]
+[23:50:10] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:10] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:11] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:12] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:12] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:13] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:13] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:14] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:14] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:14] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:15] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:15] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:16] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:16] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:17] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:17] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:18] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:18] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:18] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:19] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:19] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:19] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:20] [Server thread/INFO]: MauGP issued server command: /undo
+[23:50:23] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:23] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:23] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:28] [Server thread/INFO]: Renzo212123 issued server command: /undo
+[23:50:32] [Server thread/INFO]: Renzo212123 issued server command: /undo
